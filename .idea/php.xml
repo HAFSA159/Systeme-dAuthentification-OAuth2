@@ -49,7 +49,6 @@
       <path value="$PROJECT_DIR$/oauth-app/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/oauth-app/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/oauth-app/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/oauth-app/vendor/symfony/clock" />
       <path value="$PROJECT_DIR$/oauth-app/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/oauth-app/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/oauth-app/vendor/symfony/console" />
@@ -114,6 +113,26 @@
       <path value="$PROJECT_DIR$/oauth-app/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/oauth-app/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/oauth-app/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/swagger-api/swagger-ui" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/league/event" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/oauth-app/vendor/darkaonline/l5-swagger" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
