@@ -137,9 +137,29 @@ class UserController extends Controller
             return response()->json(['message' => 'Unauthorized'], 403);
         }
 
-        $users = User::with('roles')->get();
-        return response()->json($users);
+        $users = User::with('roles.permissions')->get();
+        $formattedUsers = $users->map(function ($user) {
+            $roles = $user->roles->map(function ($role) {
+                $permissions = $role->permissions->map(function ($permission) {
+                    return $permission->name;
+                });
+                return [
+                    'name' => $role->name,
+                    'permissions' => $permissions->all()
+                ];
+            });
+
+            return [
+                'id' => $user->id,
+                'name' => $user->name,
+                'email' => $user->email,
+                'roles' => $roles->all()
+            ];
+        });
+
+        return response()->json($formattedUsers);
     }
+
 
     /**
  * @OA\Put(
